@@ -4,10 +4,10 @@ import requests
 import numpy as np
 
 ## 트래픽 기준 상위 1,000,000개 도메인 data 저장할 경로
-data_file = 'nromal_1M.csv'
+data_file = 'nromal_data.csv'
 
 ## CSV 파일 읽기 (도메인, 순위, 날짜 정보 포함)
-df = pd.read_csv('top1M.csv')
+df = pd.read_csv('nromal_1M.csv')
 
 ## 이미 처리된 도메인 데이터 불러오기
 processed_domains = set()
