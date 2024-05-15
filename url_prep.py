@@ -1,184 +1,184 @@
 def get_raw_word_count(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_brand_check_for_domain(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_average_word_length(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_longest_word_length(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_shortest_word_length(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_standard_deviation(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_adjacent_word_count(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_average_adjacent_word_length(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_separated_word_count(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_keyword_count(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_brand_name_count(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_similar_brand_name_count(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_random_word_count(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_target_brand_name_count(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_target_keyword_count(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_other_words_count(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_digit_count(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_subdomain_count(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_random_domain(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_length(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_known_tld(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_www_com(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_punny_code(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_special_character(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_consecutive_character_repeat(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 def get_alexa_check(url: str):
     {
         try:
-            return 0;
+            return 0
         except:
-            return 0;
+            return 0
     }
 
 
