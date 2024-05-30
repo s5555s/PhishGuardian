@@ -5,6 +5,11 @@ import statistics
 from fuzzywuzzy import fuzz
 from bs4 import BeautifulSoup
 
+
+def read_file_to_list(filename):
+    with open(filename, 'r', encoding='utf-8') as file:
+        return [line.strip() for line in file]
+
 # Helper function to count words in a URL
 def count_words(url):
     parsed_url = urllib.parse.urlparse(url)
@@ -25,7 +30,7 @@ def get_page_content(url):
 
 # Function to check if a word is a brand name
 def is_brand_name(word):
-    brand_names = ["apple", "google", "facebook", "amazon", "netflix"]
+    brand_names = read_file_to_list('allbrands.txt')
     return word.lower() in brand_names
 
 def get_global_rank_from_meta(domain):
@@ -130,7 +135,7 @@ def get_separated_word_count(url: str):
 def get_keyword_count(url: str):
     try:
         page_content = get_page_content(url)
-        keywords = ["login", "bank", "secure", "account", "update"]
+        keywords = read_file_to_list('keywords.txt')
         return [sum(page_content.lower().count(keyword) for keyword in keywords)]
     except Exception:
         return [0]
