@@ -141,6 +141,20 @@ def get_brand_name_count(url: str):
     except Exception:
         return [0]
 
+def get_similar_keyword_count(url: str):
+    try:
+        page_content = get_page_content(url)
+        keywords = ["login", "bank", "secure", "account", "update"]
+        similar_keywords = 0
+        for keyword in keywords:
+            words = page_content.split()
+            for word in words:
+                if fuzz.partial_ratio(keyword, word) > 80:  # Threshold for similarity
+                    similar_keywords += 1
+        return [similar_keywords]
+    except Exception:
+        return [0]
+
 def get_similar_brand_name_count(url: str):
     try:
         return get_brand_name_count(url)
@@ -261,6 +275,7 @@ class Get_URL_Feature:
         self.separated_word_count = get_separated_word_count(url)
         self.keyword_count = get_keyword_count(url)
         self.brand_name_count = get_brand_name_count(url)
+        self.similar_keyword_count = gets_similar_keyword_count(url)
         self.similar_brand_name_count = get_similar_brand_name_count(url)
         self.random_word_count = get_random_word_count(url)
         self.target_brand_name_count = get_target_brand_name_count(url)
@@ -289,6 +304,7 @@ class Get_URL_Feature:
         self.feature.extend(self.separated_word_count)
         self.feature.extend(self.keyword_count)
         self.feature.extend(self.brand_name_count)
+        self.feature.extend(self.similar_keyword_count)
         self.feature.extend(self.similar_brand_name_count)
         self.feature.extend(self.random_word_count)
         self.feature.extend(self.target_brand_name_count)
