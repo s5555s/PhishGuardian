@@ -1,0 +1,57 @@
+body{
+    text-align: left;
+    margin-top: 10px;
+}
+img{
+    width:200px;
+    height:50px;
+}
+button{
+    width :100px;
+    height: 50px;
+}
+
+input{
+    margin-top: -10 00px;
+    width:200px;
+    height:30px;
+}
+
+#left{
+    background-color: cornflowerblue;
+    color:aliceblue;
+    float:left;
+    width:200px;
+    height:400px;
+}
+
+#top{
+    background-color: blue;
+    position:fixed;
+    width:1000px;
+}
+
+#logo{
+    float:left;
+}
+
+#searchbar{
+    float:left;
+    margin-top:-80px;
+    margin-left:780px;
+}
+
+#resultBox{
+    margin-top: 100px;
+    margin-left: 300px;
+    width : 500px;
+    background-color: aliceblue;
+}
+
+.link{
+    color:steelblue;
+}
+
+#objection{
+    margin-left: 700px;
+}
