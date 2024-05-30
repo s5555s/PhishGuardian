@@ -2,6 +2,7 @@ import requests
 import urllib.parse
 import re
 import statistics
+from fuzzywuzzy import fuzz
 from bs4 import BeautifulSoup
 
 # Helper function to count words in a URL
