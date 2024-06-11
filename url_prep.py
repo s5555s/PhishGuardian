@@ -281,7 +281,7 @@ class Get_URL_Feature:
         self.separated_word_count = get_separated_word_count(url)
         self.keyword_count = get_keyword_count(url)
         self.brand_name_count = get_brand_name_count(url)
-        self.similar_keyword_count = gets_similar_keyword_count(url)
+        self.similar_keyword_count = get_similar_keyword_count(url)
         self.similar_brand_name_count = get_similar_brand_name_count(url)
         self.random_word_count = get_random_word_count(url)
         self.target_brand_name_count = get_target_brand_name_count(url)
