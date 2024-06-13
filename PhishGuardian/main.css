@@ -1,0 +1,30 @@
+.main .logo{
+    background-color: #ffffff;
+    width: 1400px;
+    height: 200px;
+    position: absolute;
+    top: 30%;
+    left: 23%;
+}
+
+.main .txt{
+    background-color: #ffffff;
+    width: 1200px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.main .enter{
+    background-color: #ffffff;
+
+    position: absolute;
+    top: 50%;
+    left: 77%;
+}
+
+#enterButton {
+    width: 60px;
+    height: 55px;
+}

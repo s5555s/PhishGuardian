@@ -1,0 +1,361 @@
+.search-result {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.search-result .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.search-result .title-bar {
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    background-color: #0019ff;
+}
+
+.search-result .search-bar {
+    position: absolute;
+    width: 453px;
+    height: 55px;
+    top: 13px;
+    left: 975px;
+}
+
+.search-result .overlap {
+    position: relative;
+    width: 451px;
+    height: 55px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: #000000;
+}
+
+.search-result .magnifying {
+    position: absolute;
+    width: 14px;
+    height: 16px;
+    top: 18px;
+    left: 13px;
+}
+
+.search-result .overlap-group {
+    position: relative;
+    width: 15px;
+    height: 18px;
+    left: -1px;
+}
+
+.search-result .ellipse {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 0;
+    left: 2px;
+    border-radius: 6.75px;
+    border: 2px solid;
+    border-color: #000000;
+}
+
+.search-result .vector {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 11px;
+    left: 0;
+}
+
+.search-result .text-wrapper {
+    position: absolute;
+    width: 118px;
+    top: 12px;
+    left: 42px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #7d7d7d;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.search-result .logo {
+    position: absolute;
+    width: 340px;
+    height: 34px;
+    top: 18px;
+    left: 37px;
+}
+
+.search-result .overlap-2 {
+    position: relative;
+    width: 338px;
+    height: 34px;
+}
+
+.search-result .line {
+    position: absolute;
+    width: 299px;
+    height: 5px;
+    top: 22px;
+    left: 0;
+    mix-blend-mode: darken;
+}
+
+.search-result .text-wrapper-2 {
+    position: absolute;
+    width: 315px;
+    top: 0;
+    left: 23px;
+    font-family: "Inter-ExtraBold Italic", Helvetica;
+    font-weight: 800;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.search-result .ellipse-2 {
+    position: absolute;
+    width: 7px;
+    height: 8px;
+    top: 20px;
+    left: 298px;
+    border-radius: 3.5px/4px;
+    border: 5px solid;
+    border-color: #a5a5a5;
+}
+
+.search-result .img {
+    position: absolute;
+    width: 21px;
+    height: 5px;
+    top: 22px;
+    left: 303px;
+}
+
+.search-result .line-2 {
+    position: absolute;
+    width: 10px;
+    height: 5px;
+    top: 2px;
+    left: 317px;
+}
+
+.search-result .ellipse-3 {
+    position: absolute;
+    width: 13px;
+    height: 24px;
+    top: 2px;
+    left: 323px;
+}
+
+.search-result .side-bar {
+    position: absolute;
+    width: 371px;
+    height: 944px;
+    top: 80px;
+    left: 0;
+    background-color: #ebf5fb;
+}
+
+.search-result .black-list {
+    position: absolute;
+    width: 321px;
+    height: 239px;
+    top: 424px;
+    left: 24px;
+}
+
+.search-result .line-3 {
+    position: absolute;
+    width: 317px;
+    height: 3px;
+    top: 236px;
+    left: 0;
+}
+
+.search-result .element {
+    width: 275px;
+    top: 65px;
+    left: 2px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #535353;
+    position: absolute;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.search-result .text-wrapper-3 {
+    position: absolute;
+    width: 130px;
+    top: 16px;
+    left: 0;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #0019ff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+}
+
+.search-result .line-4 {
+    position: absolute;
+    width: 317px;
+    height: 3px;
+    top: -3px;
+    left: 0;
+}
+
+.search-result .white-list {
+    position: absolute;
+    width: 330px;
+    height: 213px;
+    top: 20px;
+    left: 17px;
+}
+
+.search-result .line-5 {
+    position: absolute;
+    width: 317px;
+    height: 3px;
+    top: 210px;
+    left: 0;
+}
+
+.search-result .p {
+    width: 292px;
+    top: 52px;
+    left: 12px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #535353;
+    position: absolute;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.search-result .text-wrapper-4 {
+    position: absolute;
+    width: 130px;
+    top: 13px;
+    left: 7px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #0019ff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.search-result .line-6 {
+    position: absolute;
+    width: 317px;
+    height: 3px;
+    top: -3px;
+    left: 9px;
+}
+
+.search-result .content {
+    position: absolute;
+    width: 930px;
+    height: 421px;
+    top: 311px;
+    left: 466px;
+}
+
+.search-result .div-wrapper {
+    position: absolute;
+    width: 924px;
+    height: 57px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #000000;
+}
+
+.search-result .text-wrapper-5 {
+    position: absolute;
+    width: 559px;
+    top: 3px;
+    left: 29px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #0019ff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.search-result .youtube-wrapper {
+    position: absolute;
+    width: 924px;
+    height: 204px;
+    top: 120px;
+    left: 0;
+    background-color: #ebf5fb;
+}
+
+.search-result .youtube {
+    position: absolute;
+    width: 395px;
+    top: 46px;
+    left: 30px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.search-result .span {
+    color: #000000;
+}
+
+.search-result .text-wrapper-6 {
+    color: #0019ff;
+}
+
+.search-result .overlap-3 {
+    position: absolute;
+    width: 151px;
+    height: 63px;
+    top: 358px;
+    left: 773px;
+    background-color: #0019ff;
+    border-radius: 30px;
+}
+
+.search-result .text-wrapper-7 {
+    width: 100px;
+    top: 17px;
+    left: 27px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    white-space: nowrap;
+    position: absolute;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
